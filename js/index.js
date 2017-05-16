@@ -3,8 +3,8 @@ let WebSocketTransport = require('lime-transport-websocket');
 let Lime = require('lime-js');
 
 let client = new MessagingHub.ClientBuilder()
-    .withIdentifier('brenobot')
-    .withAccessKey('U0xjbXRFbTZyWEFHZUloa0g3M2c=')
+    .withIdentifier('{identifier}')
+    .withAccessKey('{accessKey}')
     .withTransportFactory(() => new WebSocketTransport())
     .build();
 
