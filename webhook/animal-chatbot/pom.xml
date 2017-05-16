@@ -4,6 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <!-- Increase version number here -->
+        <lime.version>1.1.27</lime.version>
+    </properties>
+
     <groupId>com.ravpacheco.blip-tests</groupId>
     <artifactId>webhook-java-test</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -20,12 +25,46 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>bintray-takenet</id>
+            <url>http://dl.bintray.com/takenet/maven</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-core</artifactId>
             <version>2.5</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.limeprotocol</groupId>
+            <artifactId>lime-java-core</artifactId>
+            <version>${lime.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.limeprotocol</groupId>
+            <artifactId>lime-java-messaging</artifactId>
+            <version>${lime.version}</version>
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>retrofit</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>converter-gson</artifactId>
+            <version>2.0.2</version>
+        </dependency>
+
     </dependencies>
 
 </project>
