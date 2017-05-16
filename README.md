@@ -1,6 +1,6 @@
 # [BLiP](https://blip.ai) Chatbot Animal
 
-Vamos criar um ChatBot que utiliza uma arvore de navegação na plataforma BLiP, utilizando as linguagens Javascript, C# e Java.
+Vamos criar um ChatBot que utiliza uma maquina de estados na plataforma BLiP, utilizando as linguagens Javascript, C# e Java.
 
 **Você gostou desse projeto? Conheça mais em [BLiP](https://blip.ai)
 - [Documentação](https://portal.blip.ai/#/docs)
