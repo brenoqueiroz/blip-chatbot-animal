@@ -1,0 +1,20 @@
+﻿{
+  "identifier": "",
+  "accessKey": "",
+  "messageReceivers": [
+    {
+      "content": "animal",
+      "type": "AnimalMessageReceiver"
+    },
+    {
+      "priority": 100,
+      "response": {
+        "mediaType": "text/plain",
+        "plainContent": "Pong!"
+      },
+      "outState": "default"
+    }
+  ],
+  "startupType": "Startup",
+  "schemaVersion": 2
+}
