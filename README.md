@@ -1,4 +1,4 @@
-# [BLiP](https://blip.ai) Arvore de Navegação
+# [BLiP](https://blip.ai) Chatbot Animal
 
 Vamos criar um ChatBot que utiliza uma arvore de navegação na plataforma BLiP, utilizando as linguagens Javascript, C# e Java.
 
