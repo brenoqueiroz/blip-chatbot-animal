@@ -1,4 +1,4 @@
-# [BLiP](https://blip.ai) Arvore de Navegação
+# [BLiP](https://blip.ai) Chatbot Animal
 
 **Você gostou desse projeto? Conheça mais em [BLiP](https://blip.ai)
 - [Documentação](https://portal.blip.ai/#/docs)
