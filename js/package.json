@@ -1,0 +1,28 @@
+{
+  "name": "blipanimals",
+  "version": "1.0.0",
+  "description": "Chatbot com maquina de estados utilizando o blip.ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenoqueiroz/blip-arvore-navegacao.git"
+  },
+  "keywords": [
+    "chatbot",
+    "blip"
+  ],
+  "author": "brenoqueiroz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brenoqueiroz/blip-arvore-navegacao/issues"
+  },
+  "homepage": "https://github.com/brenoqueiroz/blip-arvore-navegacao#readme",
+  "dependencies": {
+    "lime-transport-websocket": "^2.0.2",
+    "messaginghub-client": "^3.3.0"
+  }
+}
