@@ -77,7 +77,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnimalMessageReceiver.cs" />
+    <Compile Include="MessageReceiver.cs" />
     <Compile Include="CatMessageReceiver.cs" />
     <Compile Include="DogMessageReceiver.cs" />
     <Compile Include="PingMessageReceiver.cs" />
@@ -86,10 +86,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="application.simple.json">
+    <None Include="application.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="application.json">
+    <None Include="application.code.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />

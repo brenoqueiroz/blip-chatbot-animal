@@ -10,12 +10,12 @@ using Takenet.MessagingHub.Client.Extensions.Bucket;
 
 namespace Take.Blip.Animal
 {
-    public class AnimalMessageReceiver : IMessageReceiver
+    public class MessageReceiver : IMessageReceiver
     {
         private readonly IMessagingHubSender _sender;
         private readonly IBucketExtension _bucketExtension;
 
-        public AnimalMessageReceiver(IMessagingHubSender sender, IBucketExtension bucketExtension)
+        public MessageReceiver(IMessagingHubSender sender, IBucketExtension bucketExtension)
         {
             _sender = sender;
             _bucketExtension = bucketExtension;
