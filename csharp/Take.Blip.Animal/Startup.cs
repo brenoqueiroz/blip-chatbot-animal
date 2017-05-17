@@ -23,6 +23,7 @@ namespace Take.Blip.Animal
         public Task StartAsync(CancellationToken cancellationToken)
         {
 			Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
+            Trace.WriteLine("BOT CONNECTADO");
             return Task.CompletedTask;
         }
     }

@@ -77,19 +77,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MessageReceiver.cs" />
-    <Compile Include="CatMessageReceiver.cs" />
-    <Compile Include="DogMessageReceiver.cs" />
-    <Compile Include="PingMessageReceiver.cs" />
+    <Compile Include="PlainTextMessageReceiver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="application.json">
+    <None Include="application.static.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="application.code.json">
+    <None Include="application.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
