@@ -1,3 +1,5 @@
+"use strict";
+
 let MessagingHub = require('messaginghub-client');
 let WebSocketTransport = require('lime-transport-websocket');
 let Lime = require('lime-js');
