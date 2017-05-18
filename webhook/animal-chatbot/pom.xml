@@ -50,7 +50,7 @@
             <groupId>org.limeprotocol</groupId>
             <artifactId>lime-java-messaging</artifactId>
             <version>${lime.version}</version>
-            <type>pom</type>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
@@ -64,6 +64,15 @@
             <artifactId>converter-gson</artifactId>
             <version>2.0.2</version>
         </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/mockwebserver -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>mockwebserver</artifactId>
+            <version>3.8.0</version>
+        </dependency>
+
 
     </dependencies>
 
