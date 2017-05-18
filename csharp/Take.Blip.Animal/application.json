@@ -1,0 +1,12 @@
+﻿{
+  "identifier": "animaisdemo",
+  "accessKey": "V01WNEJtVDBvRVRod1Bycm11Umw=",
+  "messageReceivers": [
+    {
+      "mediaType": "text/plain",
+      "type": "PlainTextMessageReceiver"
+    }
+  ],
+  "startupType": "Startup",
+  "schemaVersion": 2
+}

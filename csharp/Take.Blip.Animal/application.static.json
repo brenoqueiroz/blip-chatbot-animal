@@ -1,0 +1,88 @@
+﻿{
+  "identifier": "animaisdemo",
+  "accessKey": "V01WNEJtVDBvRVRod1Bycm11Umw=",
+  "messageReceivers": [
+    {
+      "content": "ping",
+      "response": {
+        "mediaType": "text/plain",
+        "plainContent": "Pong!"
+      },
+      "outState": "default"
+    },
+    {
+      "content": "animal",
+      "response": {
+        "mediaType": "application/vnd.lime.select+json",
+        "jsonContent": {
+          "text": "Escolha uma opção",
+          "options": [
+            {
+              "order": 1,
+              "text": "Cachorro"
+            },
+            {
+              "order": 2,
+              "text": "Gato"
+            }
+          ]
+        }
+      },
+      "outState": "EscolherAnimal"
+    },
+    {
+      "state": "EscolherAnimal",
+      "content": "cachorro",
+      "response": {
+        "mediaType": "application/vnd.lime.media-link+json",
+        "jsonContent": {
+          "title": "Cachorro",
+          "text": "Agora sou um cachorro",
+          "type": "image/jpeg",
+          "uri": "http://tudosobrecachorros.com.br/wp-content/uploads/cachorro-independente-766x483.jpg"
+        }
+      },
+      "outState": "cachorro"
+    },
+    {
+      "state": "EscolherAnimal",
+      "content": "gato",
+      "response": {
+        "mediaType": "application/vnd.lime.media-link+json",
+        "jsonContent": {
+          "title": "Gato",
+          "text": "Agora sou um gato",
+          "type": "image/jpeg",
+          "uri": "http://www.gatosmania.com/Uploads/gatosmania.com/ImagensGrandes/linguagem-corporal-gatos.jpg"
+        }
+      },
+      "outState": "gato"
+    },
+    {
+      "priority": 1,
+      "state": "cachorro",
+      "response": {
+        "mediaType": "text/plain",
+        "plainContent": "Au Au Au!!!"
+      }
+    },
+    {
+      "priority": 1,
+      "state": "gato",
+      "response": {
+        "mediaType": "text/plain",
+        "plainContent": "Miau Miau Miau!!!"
+      }
+    },
+    {
+      "priority": 100,
+      "response": {
+        "mediaType": "text/plain",
+        "plainContent": "Pong!"
+      },
+      "outState": "default"
+    }
+  ],
+  "startupType": "Startup",
+  "schemaVersion": 2
+}
